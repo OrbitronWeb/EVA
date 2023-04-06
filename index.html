@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVA</title>
+    <!-- <link rel="stylesheet" href="./css/style.css"> -->
+    <link rel="stylesheet" href="./css/minifier.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="inner-header">
+                <div class="header__number">
+                    <img class="header__number--image" src="./images/phone.png">
+                    <span class="header__number--title">+375 29 292-29-29 (VEL)</span>
+                    <span class="header__number--title">+375 33 333-33-33 (MTC)</span>
+                </div>
+                <div class="header__location">
+                    <img class="header__location--image" src="./images/location.png">
+                    <span class="header__location--title">ваш город</span>
+                </div>
+                <div class="header__social">
+                    <img class="header__social--image" src="./images/instagram.png">
+                    <span class="header__social--title">посетите нашу страницу</span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="modal">
+        <h1 class="modal__title">ФОРМА ЗАЯВКИ</h1>
+        <form class="modal__form" method="post">
+            <input class="modal__input" type="text" placeholder="Ваше имя" required>
+            <input class="modal__input" type="text" placeholder="Ваш e-mail" required>
+            <input class="modal__input modal__input3" type="text" required placeholder="Ваше сообщение (марка автомобиля, цвет ковриков, номер телефона)">
+            <button class="modal__send" type="submit">ОТПРАВИТЬ</button>
+            <button class="modal__cross modal__active">+</button>
+        </form>
+    </div>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="inner-hero">
+                    <div class="hero__top">
+                        <div class="site-logo">
+                            <img class="site-logo__image" src="./images/hero.svg">
+                            <h1 class="site-title"><i>EVARUGS</i></h1>
+                        </div>
+                        <ul class="hero__list">
+                            <li class="hero__item"><a href="index.html" class="hero__link">ОТЗЫВЫ</a></li>
+                            <li class="hero__item"><a href="index.html" class="hero__link">ЧТО ЭТО?</a></li>
+                            <li class="hero__item"><a href="index.html" class="hero__link">КОНТАКТЫ</a></li>
+                        </ul>
+                    </div>
+                    <div class="hero__center">
+                        <div class="hero__center--left">
+                            <span class="hero__title" id="hero__title">Инновационные коврики для автомобиля</span>
+                            <span class="hero__text">в вашем городе</span>
+                            <button class="hero__button modal__active">ЗАКАЗАТЬ</button>
+                        </div>
+                        <div class="hero__center--right">
+                            <img class="hero__image" src="./images/hero.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about">
+            <div class="container">
+                <div class="inner-about">
+                    <span class="about__title">Что такое EVA коврики?</span>
+                    <div class="about__cards">
+                        <div class="cards">
+                            <img class="card__image" src="./images/card1.jpg">
+                            <h1 class="card__title">МАТЕРИАЛ</h1>
+                            <p class="card__text">Коврики EVA всесезонные и отличаются уникальной поверхностью материала с ячейками ромбовидной формы. Из-за чего вода не проливается при изъятии ковра и не плещется езде. Коврики воду не пропускают.</p>
+                        </div>
+                        <div class="cards">
+                            <img class="card__image" src="./images/card2.jpg">
+                            <h1 class="card__title">ОТЛИЧИЯ</h1>
+                            <p class="card__text">Резиновые коврики загибаются и лезут на педали. EVA коврики такого не допустят! Специальные липучки держат его в одном положении. При желении, для водителя устанавливается подпятник из рельефого алюминия.</p>
+                        </div>
+                        <div class="cards">
+                            <img class="card__image" src="./images/card3.jpg">
+                            <h1 class="card__title">РАСЦВЕТКА</h1>
+                            <p class="card__text">Автомобильные коврики EVA можно заказать и в индивидуалбных размерах и в разных цветахб которые комбинируется на выбор покупателя с такими же цветами окантовочной полипропиленовой ременной ленты.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="comments">
+            <div class="container">
+                <div class="inner-comments">
+                    <div class="comment__cardbox">
+                        <div class="comment comment1 #comment1">
+                            <img class="comment__icon" src="./images/person1.png">
+                            <p class="comment__text">Покупала у ребят коврики для Хундай солярис в подарок молодому человеку. Все очень понравилось. Буду советовать только вас.</p>
+                            <span class="comment__writer">Вера К.</span>
+                        </div>
+                        <div class="comment comment2 #comment2">
+                            <img class="comment__icon" src="./images/person2.jpg">
+                            <p class="comment__text">Коврики супер!!! Качество на высшем уровне!!! Удачи и побольше заказов вам!!! Большое спасибо!</p>
+                            <div class="comment__writer">Константин В.</div>
+                        </div>
+                        <div class="comment comment3 #comment3">
+                            <img class="comment__icon" src="./images/person3.jpg">
+                            <p class="comment__text">Спасибо, все приехало, поставил. Результатом доволен, в машине супер! Заказывал на Ниссан.</p>
+                            <div class="comment__writer">Николай П.</div>
+                        </div>
+                        <a class="comment__previous" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="comment__next" onclick="plusSlides(1)">&#10095;</a>
+                        <div class="comment__dots">
+                            <span class="dot" onclick="currentSlide(1)"></span>
+                            <span class="dot" onclick="currentSlide(2)"></span>
+                            <span class="dot" onclick="currentSlide(3)"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="inner-footer">
+                <div class="footer__table">
+                    <h2 class="footer__title">МЫ В СОТЦИАЛЬНЫХ СЕТЯХ</h2>
+                    <img class="footer__image" src="./images/instagram-logo.png">
+                </div>
+                <div class="footer__table">
+                    <h2 class="footer__title">КОНТАКТНЫЕ ТЕЛЕФОНЫ</h2>
+                    <span class="footer__number">+375 29 292-29-29 (VEL)</span>
+                    <span class="footer__number">+375 33 333-33-33 (МТС)</span>
+                </div>
+                <div class="footer__table">
+                    <h2 class="footer__title">О НАС</h2>
+                    <p class="footer__text">Индивидуальное изготовление EVA ковриков для вашего автомобиль<br><br>ваш город</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/app.js"></script>
+</body>
+</html>
